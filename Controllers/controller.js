@@ -42,7 +42,7 @@ export class ControllerClass extends ModelClass {
     }
 
     // generating random coordinates
-    generateRandomCoordinates = () => this.globalGeneratedCoordinates[Math.floor(Math.random() * this.globalGeneratedCoordinates.length)]
+    generateRandomCoordinates = () => this.globalGeneratedCoordinates[Math.floor(Math.random() * this.globalGeneratedCoordinates.length)    ]
 
     loadBattleShips() {
         let holdCoordinates = []
